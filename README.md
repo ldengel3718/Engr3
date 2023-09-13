@@ -126,6 +126,7 @@ Remember you can insert pictures using Markdown or HTML
 ![servo-sweeping](https://github.com/ldengel3718/Engr3/assets/143533539/e7bc0941-81fa-479f-aa34-4f226bd29ee9)
 
 ### Wiring
+![Capture](https://github.com/ldengel3718/Engr3/assets/143533539/578d8642-a1e0-408c-acdd-8b5fb8616750)
 
 ### Reflection
 
