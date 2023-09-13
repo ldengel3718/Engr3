@@ -11,35 +11,56 @@ This repository will actually serve as an aid to help you get started with your 
 ## Hello_CircuitPython
 
 ### Description & Code
-Description goes here
-
+This code made a small LED light up and change colors.
 Here's how you make code look like code:
 
 ```python
-Code goes here
+# SPDX-FileCopyrightText: 2022 ladyada for Adafruit Industries
+# SPDX-License-Identifier: MIT
 
+import time
+import board
+from rainbowio import colorwheel
+import neopixel
+
+NUMPIXELS = 1 # Update this to match the number of LEDs.
+SPEED = 0.01  # Increase to slow down the rainbow. Decrease to speed it up.
+BRIGHTNESS = 0.5  # A number between 0.0 and 1.0, where 0.0 is off, and 1.0 is max.
+PIN = board.NEOPIXEL  # This is the default pin on the 5x5 NeoPixel Grid BFF.
+
+pixels = neopixel.NeoPixel(PIN, NUMPIXELS, brightness=BRIGHTNESS, auto_write=False)
+
+
+def rainbow_cycle(wait):
+    for color in range(255):
+        for pixel in range(len(pixels)):  # pylint: disable=consider-using-enumerate
+            pixel_index = (pixel * 256 // len(pixels)) + color * 5
+            pixels[pixel] = colorwheel(pixel_index & 255)
+        pixels.show()
+        time.sleep(wait)
+
+
+while True:
+    rainbow_cycle(SPEED)
 ```
 
 
 ### Evidence
 
 
-![spinningMetro_Optimized](https://user-images.githubusercontent.com/54641488/192549584-18285130-2e3b-4631-8005-0792c2942f73.gif)
+<img src="https://learn.adafruit.com/system/assets/assets/000/029/993/original/adafruit_products_2945limorgif_BIG.gif?1453742429" style="width:200px;">
 
 
-And here is how you should give image credit to someone if you use their work:
 
-Image credit goes to [Rick A](https://www.youtube.com/watch?v=dQw4w9WgXcQ&scrlybrkr=8931d0bc)
+Image credit goes to Martin Ku
 
 
 
 ### Wiring
-Make an account with your Google ID at [tinkercad.com](https://www.tinkercad.com/learn/circuits), and use "TinkerCad Circuits to make a wiring diagram."  It's really easy!  
-Then post an image here.   [here's a quick tutorial for all markdown code, like making links](https://guides.github.com/features/mastering-markdown/)
+![Capture](https://github.com/ldengel3718/Engr3/assets/143533539/26ac5589-7d16-4440-88b8-915730de3213)
 
 ### Reflection
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience?  Your ultimate goal for the reflection is to pass on the knowledge that will make this assignment better or easier for the next person.
-
+This assignment wasn't very hard. The wireing was quite simple, but I did need a little help getting back in the groove with the coding.
 
 
 
@@ -99,11 +120,8 @@ while True:
 ### Evidence
 Pictures / Gifs of your work should go here.  You need to communicate what your thing does.
 Remember you can insert pictures using Markdown or HTML
-![adafruit_products_2945limorgif_BIG](https://github.com/ldengel3718/Engr3/assets/143533539/d292d0db-8ad8-4789-9ac3-af2e807d486f)
 
 
-<img src="https://learn.adafruit.com/system/assets/assets/000/029/993/original/adafruit_products_2945limorgif_BIG.gif?1453742429" style="width:200px;">
-https://learn.adafruit.com/system/assets/assets/000/029/993/original/adafruit_products_2945limorgif_BIG.gif?1453742429
 
 ![servo-sweeping](https://github.com/ldengel3718/Engr3/assets/143533539/e7bc0941-81fa-479f-aa34-4f226bd29ee9)
 
