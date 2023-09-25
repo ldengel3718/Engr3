@@ -136,24 +136,36 @@ This assignment was a fun and challenging way. I had trouble starting, but I got
 
 
 
-## CircuitPython_LCD
+## CircuitPython_Distance
 
 ### Description & Code
-
+This assignment told us how far away something was from the Ultrasonic distance sensor. it also lit up the Neopixel under the board.
 ```python
-Code goes here
-
+import time
+import board
+import adafruit_hcsr04
+sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D5, echo_pin=board.D6)
+cm = 0
+while True:
+    try:
+        cm = sonar.distance
+        print((cm))
+    except RuntimeError:
+        print("Not in range")
+    time.sleep(0.1)
 ```
 
 ### Evidence
 
-Pictures / Gifs of your work should go here.  You need to communicate what your thing does.
+Pictures / GIFs of your work should go here.  You need to communicate what your thing does.
+![image](https://github.com/ldengel3718/Engr3/assets/143533539/216b327e-39dd-4b89-bef3-953974935521)
 
 ### Wiring
+![Screenshot 2023-09-25 112807](https://github.com/ldengel3718/Engr3/assets/143533539/96bc16a5-da41-4627-8d6f-72ba9ffcd1f3)
 
 ### Reflection
 
-
+This wasn't an easy assignment at all, I had trouble starting this assignment and struggled with the code. I didn't have too many problems with the wiring though.
 
 
 
