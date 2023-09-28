@@ -169,17 +169,33 @@ This wasn't an easy assignment at all, I had trouble starting this assignment an
 
 
 
-## NextAssignment
+## Motor Contol
 
 ### Description & Code
-
+This assignment made the motor roatate using a potentiometer. 
 ```python
-Code goes here
+import time 
+import board
+from analogio import AnalogIn
+import pwmio
+from digitalio import DigitalInOut
 
+#pins
+potentiometerpin = AnalogIn(board.A0)
+motorpin = pwmio.PWMOut(board.D3)
+
+#prints the potentiometer value then writes it to the motor
+while True:
+    print(potentiometerpin.value)
+    time.sleep(0.1)
+    motorpin.duty_cycle = potentiometerpin.value
 ```
 
 ### Evidence
+![nema17_rpi_demo](https://github.com/ldengel3718/Engr3/assets/143533539/8dcf4d22-53ac-4ae0-8cab-4c5e88654c56)
 
 ### Wiring
+![image](https://github.com/ldengel3718/Engr3/assets/143533539/df1de06d-90dc-4c47-94f2-5af0c8fdef59)
 
 ### Reflection
+This assignment was not very hard and there wasnt too much code. The wiring was simple and I liked this assignment more than the previous.
