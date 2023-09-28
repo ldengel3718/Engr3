@@ -162,7 +162,7 @@ Pictures / GIFs of your work should go here.  You need to communicate what your 
 
 ### Wiring
 ![Screenshot 2023-09-25 112807](https://github.com/ldengel3718/Engr3/assets/143533539/96bc16a5-da41-4627-8d6f-72ba9ffcd1f3)
-
+Image credit goes to the Adafruit Website
 ### Reflection
 
 This wasn't an easy assignment at all, I had trouble starting this assignment and struggled with the code. I didn't have too many problems with the wiring though.
@@ -193,6 +193,7 @@ while True:
 
 ### Evidence
 ![nema17_rpi_demo](https://github.com/ldengel3718/Engr3/assets/143533539/8dcf4d22-53ac-4ae0-8cab-4c5e88654c56)
+Image credit goes to Joshua Hrisco
 
 ### Wiring
 ![image](https://github.com/ldengel3718/Engr3/assets/143533539/df1de06d-90dc-4c47-94f2-5af0c8fdef59)
