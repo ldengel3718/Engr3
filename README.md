@@ -1,12 +1,14 @@
 # CircuitPython
 This repository will actually serve as an aid to help you get started with your own template.  You should copy the raw form of this readme into your own, and use this template to write your own.  If you want to draw inspiration from other classmates, feel free to check [this directory of all students!](https://github.com/chssigma/Class_Accounts).
 ## Table of Contents
-* [Table of Contents](#TableOfContents)
-* [Hello_CircuitPython](#Hello_CircuitPython)
-* [CircuitPython_Servo](#CircuitPython_Servo)
-* [CircuitPython_LCD](#CircuitPython_LCD)
-* [NextAssignmentGoesHere](#NextAssignment)
----
+* [Table of Contents](TableOfContents)
+* [Hello_CircuitPython](Hello_CircuitPython)
+* [CircuitPython_Servo](CircuitPython_Servo)
+* [CircuitPython_LCD](CircuitPython_LCD)
+* [Motor Control](Motor_control)
+ * [Hangar](Hangar)
+ * [Swing Arm](Swing Arm)
+
 
 ## Hello_CircuitPython
 
@@ -200,3 +202,24 @@ Image credit goes to Joshua Hrisco
 
 ### Reflection
 This assignment was not very hard and there wasnt too much code. The wiring was simple and I liked this assignment more than the previous.
+
+
+## Hangar
+
+### Assignment Description
+
+We had to make a hangar based on a few photos with dimensions given to us.
+### Evidence
+
+![image](https://github.com/ldengel3718/Engr3/assets/143533539/57d98ecd-977b-41cd-9e8b-1afc9d87cfaf)
+![Hangar](https://github.com/ldengel3718/Engr3/assets/143533539/f24c3fa0-4cf2-433a-81ee-a835c5fe1b37)
+![Fronnt](https://github.com/ldengel3718/Engr3/assets/143533539/a852f46e-9c06-410c-a71b-c71d12b22513)
+
+### Part Link 
+
+[[Create a link to your Onshape document](https://cvilleschools.onshape.com/documents/003e413cee57f7ccccaa15c2/w/ea71050bb283bf3bf088c96c/e/c85ae532263d3b551e1795d0?renderMode=0&uiState=62d9b9d7883c4f335ec42021). Don't forget to turn on link sharing in your Onshape document so that others can see it. ](https://cvilleschools.onshape.com/documents/caa6fd0b434cff95e6afe1d0/w/0b41de6fe5d46a783dfeba24/e/8b3b7df5f44e32f7ea277424)
+
+### Reflection
+
+This was a simple start to Onshape for this year which was nice. It was also cool to use sketch fillets for the first time.
+&nbsp;
