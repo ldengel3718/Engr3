@@ -6,8 +6,8 @@ This repository will actually serve as an aid to help you get started with your 
 * [CircuitPython_Servo](#CircuitPython_Servo)
 * [CircuitPython_LCD](#CircuitPython_LCD)
 * [Motor Control](#Motor_control)
- * [Hangar](Hangar)
- * [Swing Arm](Swing Arm)
+ * [Hangar](#Hangar)
+ * [Swing_Arm](#Swing_Arm)
 
 
 ## Hello_CircuitPython
@@ -218,8 +218,27 @@ We had to make a hangar based on a few photos with dimensions given to us.
 ### Part Link 
 
 [[Create a link to your Onshape document](https://cvilleschools.onshape.com/documents/003e413cee57f7ccccaa15c2/w/ea71050bb283bf3bf088c96c/e/c85ae532263d3b551e1795d0?renderMode=0&uiState=62d9b9d7883c4f335ec42021). Don't forget to turn on link sharing in your Onshape document so that others can see it. ](https://cvilleschools.onshape.com/documents/caa6fd0b434cff95e6afe1d0/w/0b41de6fe5d46a783dfeba24/e/8b3b7df5f44e32f7ea277424)
-
 ### Reflection
 
 This was a simple start to Onshape for this year which was nice. It was also cool to use sketch fillets for the first time.
+&nbsp;
+
+## Swing_Arm 
+
+### Assignment Description
+
+We were tasked to create a swing arm based on an image. Then we had to change the dimensions around which changed the look of the entire thing.
+### Evidence
+
+![image](https://github.com/ldengel3718/Engr3/assets/143533539/ee66d738-7639-41cd-a8f9-216b9382be3c)
+![image](https://github.com/ldengel3718/Engr3/assets/143533539/56791c59-4843-447b-ad3c-5bc2f4e364e6)
+![image](https://github.com/ldengel3718/Engr3/assets/143533539/f327fe2d-9164-4009-90ad-8c230e0d605a)
+
+### Part Link 
+
+[Create a link to your Onshape document]([https://cvilleschools.onshape.com/documents/003e413cee57f7ccccaa15c2/w/ea71050bb283bf3bf088c96c/e/c85ae532263d3b551e1795d0?renderMode=0&uiState=62d9b9d7883c4f335ec42021](https://cvilleschools.onshape.com/documents/5046251d5ea4d5ca425fbe3f/w/f0030bb96375f589834cb015/e/84b4033fe2b67420fd258d65)). Don't forget to turn on link sharing in your Onshape document so that others can see it. 
+
+### Reflection
+
+The first part of this project was not too bad but changing the dimensions led to many problems for me. It created a few errors with the fillets and somehow created new parts. After getting this fixed up it looked great.
 &nbsp;
