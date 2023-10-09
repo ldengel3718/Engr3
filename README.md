@@ -5,6 +5,7 @@ This repository will actually serve as an aid to help you get started with your 
 * [Hello_CircuitPython](#Hello_CircuitPython)
 * [CircuitPython_Servo](#CircuitPython_Servo)
 * [CircuitPython_LCD](#CircuitPython_LCD)
+  * [Photointerrupter](#Photointerrupter)
 * [Motor Control](#Motor_control)
  * [Hangar](#Hangar)
  * [Swing_Arm](#Swing_Arm)
@@ -203,7 +204,49 @@ Image credit goes to Joshua Hrisco
 ### Reflection
 This assignment was not very hard and there wasnt too much code. The wiring was simple and I liked this assignment more than the previous.
 
+## Photointerrupter
 
+### Description & Code
+This assignment told us how many times something had interrupted the photo interrupter in 4 seconds.
+```python
+from digitalio import DigitalInOut, Direction, Pull
+import time
+import board
+
+interrupter = DigitalInOut(board.D7)
+interrupter.direction = Direction.INPUT
+interrupter.pull = Pull.UP
+
+counter = 0
+
+photo = False
+state = False
+
+max = 4
+start = time.time()
+while True:
+    photo = interrupter.value
+    if photo and not state:
+            counter += 1
+    state = photo
+
+    remaining = max - time.time()
+
+    if remaining <= 0:
+        print("Interrupts:", str(counter))
+        max = time.time() + 4
+        counter = 0
+```
+
+### Evidence
+![image](https://github.com/ldengel3718/Engr3/assets/143533539/519fabad-df20-4061-bdf9-82165b8a7542)
+Image credit goes to Adafruit.com
+
+### Wiring
+![image](https://github.com/ldengel3718/Engr3/assets/143533539/29f96111-8f25-44a9-afae-369c6c195797)
+
+### Reflection
+This assignment was a little bit more challenging, but it was cool to use a photo interrupter. The wiring was very easy, but the code was a little harder.
 ## Hangar
 
 ### Assignment Description
