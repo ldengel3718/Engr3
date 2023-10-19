@@ -127,7 +127,7 @@ Remember you can insert pictures using Markdown or HTML
 
 
 ![servo-sweeping](https://github.com/ldengel3718/Engr3/assets/143533539/e7bc0941-81fa-479f-aa34-4f226bd29ee9)
-
+Image credit goes to adafruit.com
 ### Wiring
 ![buttonServo](https://github.com/ldengel3718/Engr3/assets/143533539/d74164fb-1572-4266-9665-93b52ee7c56f)
 
