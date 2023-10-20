@@ -63,7 +63,7 @@ Image credit goes to Martin Ku
 ![Capture](https://github.com/ldengel3718/Engr3/assets/143533539/26ac5589-7d16-4440-88b8-915730de3213)
 
 ### Reflection
-This assignment wasn't very hard. The wireing was quite simple, but I did need a little help getting back in the groove with the coding.
+This assignment wasn't very hard. The wireing was quite simple, but I did need a little help getting back in the groove with the coding. I struggled with the while loop but got some help and figured it out. I learned how to write while loops and I also learned how to use git hub for documentation. I feel like google sites is easier for documentation and would advise that in then future.
 
 
 
@@ -134,8 +134,7 @@ Image credit goes to adafruit.com
 
 ### Reflection
 
-This assignment was a fun and challenging way. I had trouble starting, but I got some help from Josh, Ryan and Mr. Helmstetter. This helped me figure out some things and finish the assignment.
-
+I had lots of trouble on starting this assignment and it took me a while to finish the code for the button. I learned to use angles for my servo and how to use a button. Something that would be helpful would be an outline for the code to get us started.
 
 
 
@@ -169,8 +168,7 @@ Image credit goes to the Adafruit Website
 ![Screenshot 2023-09-25 112807](https://github.com/ldengel3718/Engr3/assets/143533539/96bc16a5-da41-4627-8d6f-72ba9ffcd1f3)
 ### Reflection
 
-This wasn't an easy assignment at all, I had trouble starting this assignment and struggled with the code. I didn't have too many problems with the wiring though.
-
+This assignment was actually easier for me than the previous two. I had gotten back in the groove for coding and wiring. I did have some trouble with the wiring and I also didn't have matching pins. I learned how helpful importing things is and how it makes everything easier. 
 
 
 ## Motor Contol
@@ -203,8 +201,7 @@ Image credit goes to Joshua Hrisco
 ![image](https://github.com/ldengel3718/Engr3/assets/143533539/df1de06d-90dc-4c47-94f2-5af0c8fdef59)
 
 ### Reflection
-This assignment was not very hard and there wasnt too much code. The wiring was simple and I liked this assignment more than the previous.
-
+This assignment was fun as there wasn't too much code and I like using motors. I didn't really struggle with much but the potentiometer was definitely the hardest part. I learned how to mix the two components together and it was a fun assignment. I would advise starting with your wiring so you know which pins to use.
 ## Photointerrupter
 
 ### Description & Code
@@ -247,7 +244,7 @@ Image credit goes to Adafruit.com
 ![image](https://github.com/ldengel3718/Engr3/assets/143533539/29f96111-8f25-44a9-afae-369c6c195797)
 
 ### Reflection
-This assignment was a little bit more challenging, but it was cool to use a photo interrupter. The wiring was very easy, but the code was a little harder.
+This assignment was a lot harder than the previous few. I struggled with the counter and it took a while for me to understand it. I did also understand and know how to use it which should be helpful in the future. I would advise trying to understand what the code entails before trying to write it, make an outline. 
 ## Hangar
 
 ### Assignment Description
@@ -264,7 +261,7 @@ We had to make a hangar based on a few photos with dimensions given to us.
 [[Create a link to your Onshape document](https://cvilleschools.onshape.com/documents/003e413cee57f7ccccaa15c2/w/ea71050bb283bf3bf088c96c/e/c85ae532263d3b551e1795d0?renderMode=0&uiState=62d9b9d7883c4f335ec42021). Don't forget to turn on link sharing in your Onshape document so that others can see it. ](https://cvilleschools.onshape.com/documents/caa6fd0b434cff95e6afe1d0/w/0b41de6fe5d46a783dfeba24/e/8b3b7df5f44e32f7ea277424)
 ### Reflection
 
-This was a simple start to Onshape for this year which was nice. It was also cool to use sketch fillets for the first time.
+This was our first assignment of the year so it took a while for me to become comfortable with Onshape again which was challenging. I re-learned how to use Onshape and how to use sketch fillets as well. I don't have much advice on this one though.
 &nbsp;
 
 ## Swing_Arm 
@@ -284,5 +281,5 @@ We were tasked to create a swing arm based on an image. Then we had to change th
 
 ### Reflection
 
-The first part of this project was not too bad but changing the dimensions led to many problems for me. It created a few errors with the fillets and somehow created new parts. After getting this fixed up it looked great.
+The first part of this project was not too bad but changing the dimensions led to many problems for me. It created a few errors with the fillets and somehow created new parts. After getting this fixed up it looked great. I learned how to use the parallel tool. I would advise paying attention to your initial sketch as changing the dimensions really screwed mine up.
 &nbsp;
