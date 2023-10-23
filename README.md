@@ -63,7 +63,7 @@ Image credit goes to Martin Ku
 ![Capture](https://github.com/ldengel3718/Engr3/assets/143533539/26ac5589-7d16-4440-88b8-915730de3213)
 
 ### Reflection
-This assignment wasn't very hard. The wireing was quite simple, but I did need a little help getting back in the groove with the coding. I struggled with the while loop but got some help and figured it out. I learned how to write while loops and I also learned how to use git hub for documentation. I feel like google sites is easier for documentation and would advise that in then future.
+This assignment wasn't very hard. The wiring was quite simple, but I did need a little help getting back in the groove with the coding. I struggled with the while loop but got some help and figured it out. I learned how to write while loops and I also learned how to use git hub for documentation. I feel like Google Sites is easier for documentation and would advise that in the future.
 
 
 
@@ -168,7 +168,7 @@ Image credit goes to the Adafruit Website
 ![Screenshot 2023-09-25 112807](https://github.com/ldengel3718/Engr3/assets/143533539/96bc16a5-da41-4627-8d6f-72ba9ffcd1f3)
 ### Reflection
 
-This assignment was actually easier for me than the previous two. I had gotten back in the groove for coding and wiring. I did have some trouble with the wiring and I also didn't have matching pins. I learned how helpful importing things is and how it makes everything easier. 
+This assignment was actually easier for me than the previous two. I had gotten back in the groove for coding and wiring. I did have some trouble with the wiring and I also didn't have matching pins. I learned how helpful importing things is and how it makes everything easier. I advise taking your time on this assignment and making sure your code is write, writing the code is the harder part.
 
 
 ## Motor Contol
@@ -244,7 +244,7 @@ Image credit goes to Adafruit.com
 ![image](https://github.com/ldengel3718/Engr3/assets/143533539/29f96111-8f25-44a9-afae-369c6c195797)
 
 ### Reflection
-This assignment was a lot harder than the previous few. I struggled with the counter and it took a while for me to understand it. I did also understand and know how to use it which should be helpful in the future. I would advise trying to understand what the code entails before trying to write it, make an outline. 
+This assignment was a lot harder than the previous few. I struggled with the counter and it took a while for me to understand it. I did also understand and know how to use it which should be helpful in the future. I would advise trying to understand what the code entails before trying to write it and make an outline. 
 ## Hangar
 
 ### Assignment Description
@@ -261,7 +261,7 @@ We had to make a hangar based on a few photos with dimensions given to us.
 [[Create a link to your Onshape document](https://cvilleschools.onshape.com/documents/003e413cee57f7ccccaa15c2/w/ea71050bb283bf3bf088c96c/e/c85ae532263d3b551e1795d0?renderMode=0&uiState=62d9b9d7883c4f335ec42021). Don't forget to turn on link sharing in your Onshape document so that others can see it. ](https://cvilleschools.onshape.com/documents/caa6fd0b434cff95e6afe1d0/w/0b41de6fe5d46a783dfeba24/e/8b3b7df5f44e32f7ea277424)
 ### Reflection
 
-This was our first assignment of the year so it took a while for me to become comfortable with Onshape again which was challenging. I re-learned how to use Onshape and how to use sketch fillets as well. I don't have much advice on this one though.
+This was our first assignment of the year so it took a while for me to become comfortable with Onshape again which was challenging. I re-learned how to use Onshape and how to use sketch fillets as well. I don't have much advice on this one though. Maybe don't use sketch fillets since its honestly harder than a normal fillet.
 &nbsp;
 
 ## Swing_Arm 
