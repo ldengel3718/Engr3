@@ -147,14 +147,14 @@ This assignment told us how far away something was from the Ultrasonic distance 
 import time
 import board
 import adafruit_hcsr04
-sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D5, echo_pin=board.D6)
+sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D5, echo_pin=board.D6) #Gets distance here
 cm = 0
 while True:
     try:
         cm = sonar.distance
-        print((cm))
+        print((cm)) #variable printed here
     except RuntimeError:
-        print("Not in range")
+        print("Not in range") #If it doesn't read anything, prints "Not in Range"
     time.sleep(0.1)
 ```
 
@@ -210,21 +210,21 @@ This assignment told us how many times something had interrupted the photo inter
 from digitalio import DigitalInOut, Direction, Pull
 import time
 import board
-
+#pins 
 interrupter = DigitalInOut(board.D7)
 interrupter.direction = Direction.INPUT
 interrupter.pull = Pull.UP
 
 counter = 0
 
-photo = False
-state = False
+photo = False #
+state = False #   
 
-max = 4
-start = time.time()
+max = 4 #sets the interval
+start = time.time() 
 while True:
     photo = interrupter.value
-    if photo and not state:
+    if the photo and not state: #if not interrupted in the interval, increase the counter by 1
             counter += 1
     state = photo
 
