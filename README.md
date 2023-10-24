@@ -14,7 +14,7 @@ This repository will actually serve as an aid to help you get started with your 
 ## Hello_CircuitPython
 
 ### Description & Code
-This code made a small LED light up and change colors.
+ We used the neopixel on the board along with the RGB led to get a rainbow pattern. I was able to do both of these and used the code from the library.
 Here's how you make code look like code:
 
 ```python
@@ -70,7 +70,7 @@ This assignment wasn't very hard. The wiring was quite simple, but I did need a 
 ## CircuitPython_Servo
 
 ### Description & Code
-This assignment was about getting a servo to work with circuit python. We used code to move the motor and then included buttons.
+This assignment was about getting a servo to work with Circuit Python. We used code to move the motor and then included buttons. One button made the servo go the the right and the other to the left.
 ```python
 # # SPDX-FileCopyrightText: 2018 Kattni Rembor for Adafruit Industries
 #
@@ -142,7 +142,7 @@ I had lots of trouble on starting this assignment and it took me a while to fini
 ## CircuitPython_Distance
 
 ### Description & Code
-This assignment told us how far away something was from the Ultrasonic distance sensor. it also lit up the Neopixel under the board.
+This assignment told us how far away something was from the Ultrasonic distance sensor and it also lit up the Neopixel under the board. If there was nothing in range of the distance sensor it would print "not in range". The neopixel lit up different colors based on the distance of the object from the sensor.
 ```python
 import time
 import board
@@ -154,7 +154,7 @@ while True:
         cm = sonar.distance
         print((cm)) #variable printed here
     except RuntimeError:
-        print("Not in range") #If it doesn't read anything, prints "Not in Range"
+        print("Not in range") #If it doesn't read anything, print "Not in Range"
     time.sleep(0.1)
 ```
 
@@ -174,7 +174,7 @@ This assignment was actually easier for me than the previous two. I had gotten b
 ## Motor Contol
 
 ### Description & Code
-This assignment made the motor roatate using a potentiometer. 
+This assignment made the motor rotate using a potentiometer. We used batteries as well on this assignment and it took me a second to re-learn how to use them. This took me three classes and the code isn't too complicated.
 ```python
 import time 
 import board
@@ -205,7 +205,7 @@ This assignment was fun as there wasn't too much code and I like using motors. I
 ## Photointerrupter
 
 ### Description & Code
-This assignment told us how many times something had interrupted the photo interrupter in 4 seconds.
+This assignment told us how many times something had interrupted the photo interrupter in 4 seconds. It would count how many times it was interrupted in the interval and print it. If nothing it would just print 0.
 ```python
 from digitalio import DigitalInOut, Direction, Pull
 import time
@@ -249,7 +249,7 @@ This assignment was a lot harder than the previous few. I struggled with the cou
 
 ### Assignment Description
 
-We had to make a hangar based on a few photos with dimensions given to us.
+The goal of this assignment was to make a hangar based on a few photos with dimensions given to us. This was a very simple design and it incorporated skills we used from last year into this such as extruding.
 ### Evidence
 
 ![image](https://github.com/ldengel3718/Engr3/assets/143533539/57d98ecd-977b-41cd-9e8b-1afc9d87cfaf)
@@ -268,7 +268,7 @@ This was our first assignment of the year so it took a while for me to become co
 
 ### Assignment Description
 
-We were tasked to create a swing arm based on an image. Then we had to change the dimensions around which changed the look of the entire thing.
+We were tasked to create a swing arm based on an image and then we had to change the dimensions around which changed the look of the entire thing. There were many different angles and sketches given to us and then we had to change the dimensions to change the entire look of it. If the initial sketch was off than your second wrong would end up horribly wrong.
 ### Evidence
 
 ![image](https://github.com/ldengel3718/Engr3/assets/143533539/ee66d738-7639-41cd-a8f9-216b9382be3c)
