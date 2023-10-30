@@ -277,8 +277,7 @@ We were tasked to create a swing arm based on an image and then we had to change
 
 ### Part Link 
 
-[Create a link to your Onshape document]([https://cvilleschools.onshape.com/documents/003e413cee57f7ccccaa15c2/w/ea71050bb283bf3bf088c96c/e/c85ae532263d3b551e1795d0?renderMode=0&uiState=62d9b9d7883c4f335ec42021](https://cvilleschools.onshape.com/documents/5046251d5ea4d5ca425fbe3f/w/f0030bb96375f589834cb015/e/84b4033fe2b67420fd258d65)). Don't forget to turn on link sharing in your Onshape document so that others can see it. 
-
+https://cvilleschools.onshape.com/documents/5046251d5ea4d5ca425fbe3f/w/f0030bb96375f589834cb015/e/84b4033fe2b67420fd258d65
 ### Reflection
 
 The first part of this project was not too bad but changing the dimensions led to many problems for me. It created a few errors with the fillets and somehow created new parts. After getting this fixed up it looked great. I learned how to use the parallel tool. I would advise paying attention to your initial sketch as changing the dimensions really screwed mine up.
