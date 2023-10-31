@@ -51,11 +51,6 @@ while True:
 ### Evidence
 
 
-<img src="https://learn.adafruit.com/system/assets/assets/000/029/993/original/adafruit_products_2945limorgif_BIG.gif?1453742429" style="width:200px;">
-
-
-
-Image credit goes to Martin Ku
 
 
 
@@ -125,9 +120,8 @@ Pictures / Gifs of your work should go here.  You need to communicate what your 
 Remember you can insert pictures using Markdown or HTML
 
 
+https://drive.google.com/file/d/19kU0gMM48Dn6-dehD8EDgt95eNHNegF_/view?usp=sharing
 
-![servo-sweeping](https://github.com/ldengel3718/Engr3/assets/143533539/e7bc0941-81fa-479f-aa34-4f226bd29ee9)
-Image credit goes to adafruit.com
 
 ### Wiring
 ![buttonServo](https://github.com/ldengel3718/Engr3/assets/143533539/d74164fb-1572-4266-9665-93b52ee7c56f)
@@ -160,9 +154,7 @@ while True:
 
 ### Evidence
 
-Pictures / GIFs of your work should go here.  You need to communicate what your thing does.
-![image](https://github.com/ldengel3718/Engr3/assets/143533539/216b327e-39dd-4b89-bef3-953974935521)
-Image credit goes to the Adafruit Website
+https://drive.google.com/file/d/1aiwX1ZQLRiEpCKVNxv7e4bX0L4c7XX4-/view?usp=sharing
 
 ### Wiring
 ![Screenshot 2023-09-25 112807](https://github.com/ldengel3718/Engr3/assets/143533539/96bc16a5-da41-4627-8d6f-72ba9ffcd1f3)
@@ -194,8 +186,7 @@ while True:
 ```
 
 ### Evidence
-![nema17_rpi_demo](https://github.com/ldengel3718/Engr3/assets/143533539/8dcf4d22-53ac-4ae0-8cab-4c5e88654c56)
-Image credit goes to Joshua Hrisco
+https://drive.google.com/file/d/1tmlIlOe0C0YODo9KltpYBuVw_AmxRr4T/view?usp=sharing
 
 ### Wiring
 ![image](https://github.com/ldengel3718/Engr3/assets/143533539/df1de06d-90dc-4c47-94f2-5af0c8fdef59)
@@ -237,8 +228,8 @@ while True:
 ```
 
 ### Evidence
-![image](https://github.com/ldengel3718/Engr3/assets/143533539/519fabad-df20-4061-bdf9-82165b8a7542)
-Image credit goes to Adafruit.com
+
+https://drive.google.com/file/d/1muSV-7Zl1t76_cL3m35tonO5IzkEUjEB/view?usp=sharing
 
 ### Wiring
 ![image](https://github.com/ldengel3718/Engr3/assets/143533539/29f96111-8f25-44a9-afae-369c6c195797)
