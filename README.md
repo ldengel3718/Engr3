@@ -273,3 +273,19 @@ https://cvilleschools.onshape.com/documents/5046251d5ea4d5ca425fbe3f/w/f0030bb96
 
 The first part of this project was not too bad but changing the dimensions led to many problems for me. It created a few errors with the fillets and somehow created new parts. After getting this fixed up it looked great. I learned how to use the parallel tool. I would advise paying attention to your initial sketch as changing the dimensions really screwed mine up.
 &nbsp;
+## Onshape Certification Part 1  
+
+### Assignment Description
+
+This was the first part of our onshape certification to prep for the test. In this we were asked to make a design on Onshape using photos. 
+### Evidence
+![Screenshot 2024-03-28 110708](https://github.com/ldengel3718/Engr3/assets/143533539/12dd4f38-8313-405a-8e15-ea2908d5ff87)
+![Screenshot 2024-03-28 110828](https://github.com/ldengel3718/Engr3/assets/143533539/44342171-b50a-432a-8558-1bf3657fd3d3)
+
+
+### Part Link 
+https://cvilleschools.onshape.com/documents/92b147b8d7ff3b9049249335/w/8a123f3111920f108ef0cdcc/e/900544e70849e1d97fae8455
+
+### Reflection
+
+This part was somewhat challenging but I got good help from Ryan and Mr. Miller. I struggled with cutting into the part at the end as it was definantly the hardest part of this project. I liked this project a lot as it was challenging but also fun and simple. nbsp;
