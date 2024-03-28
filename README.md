@@ -9,9 +9,9 @@ This repository will actually serve as an aid to help you get started with your 
 * [Motor Control](#Motor_control)
  * [Hangar](#Hangar)
  * [Swing_Arm](#Swing_Arm)
- *  [Onshape Certification Part 1](#Onshape Certification Part 1)
- *  [Onshape Certification Part 2](#Onshape Certification Part 2)
- * [Onshape Certification Part 2](#Onshape Certification Part 2)
+ *  [Onshape Certification Part 1](#OnshapeCertificationPart1)
+ *  [Onshape Certification Part 2](#OnshapeCertificationPart2)
+ * [Onshape Certification Part 3](#OnshapeCertificationPart3)
 
 
 
