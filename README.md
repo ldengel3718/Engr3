@@ -289,3 +289,19 @@ https://cvilleschools.onshape.com/documents/92b147b8d7ff3b9049249335/w/8a123f311
 ### Reflection
 
 This part was somewhat challenging but I got good help from Ryan and Mr. Miller. I struggled with cutting into the part at the end as it was definantly the hardest part of this project. I liked this project a lot as it was challenging but also fun and simple. nbsp;
+
+## Onshape Certification Part 2
+
+### Assignment Description
+
+This was the second part of our Onshape certification. We built a piece that looked like field goal uprights for football.
+### Evidence
+![Screenshot 2024-03-28 111559](https://github.com/ldengel3718/Engr3/assets/143533539/59c9a569-6583-4204-87e7-44b9e0b61a30)
+![Screenshot 2024-03-28 111543](https://github.com/ldengel3718/Engr3/assets/143533539/7d95a3d5-6df8-429c-a609-fe02aece787a)
+
+
+
+### Part Link 
+https://cvilleschools.onshape.com/documents/69e70aa0a05808b93bc8d363/w/6d7500582fddb9694f9349f7/e/ce5ba92f50a2fd8a4335a155
+### Reflection
+I did this part during football season so it was fun to make some uprights in engineering. I had a lot of fun making this assignment and my favorite part was making the top of the uprights. I did struggle with the base a little as it was hard to get all the dimensions right.
