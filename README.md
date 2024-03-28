@@ -9,6 +9,10 @@ This repository will actually serve as an aid to help you get started with your 
 * [Motor Control](#Motor_control)
  * [Hangar](#Hangar)
  * [Swing_Arm](#Swing_Arm)
+ *  [Onshape Certification Part 1](#Onshape Certification Part 1)
+ *  [Onshape Certification Part 2](#Onshape Certification Part 2)
+ * [Onshape Certification Part 2](#Onshape Certification Part 2)
+
 
 
 ## Hello_CircuitPython
@@ -305,3 +309,20 @@ This was the second part of our Onshape certification. We built a piece that loo
 https://cvilleschools.onshape.com/documents/69e70aa0a05808b93bc8d363/w/6d7500582fddb9694f9349f7/e/ce5ba92f50a2fd8a4335a155
 ### Reflection
 I did this part during football season so it was fun to make some uprights in engineering. I had a lot of fun making this assignment and my favorite part was making the top of the uprights. I did struggle with the base a little as it was hard to get all the dimensions right.
+
+## Onshape Certification Part 3
+
+### Assignment Description
+
+For this assignment we were asked to make a pair of grippers and assemble multiple parts together to make the grippers.
+### Evidence
+![Screenshot 2024-03-28 112450](https://github.com/ldengel3718/Engr3/assets/143533539/2d3c6876-6c7b-4a44-af55-515679e4d6c1)
+![Screenshot 2024-03-28 112418](https://github.com/ldengel3718/Engr3/assets/143533539/32d0ef8b-5d20-4510-b7ab-db3c86a8c0ac)
+
+
+
+
+### Part Link 
+https://cvilleschools.onshape.com/documents/2521a0a09a9470f1e7529975/w/cdc683274651f22f8268cb0b/e/cd2c6288e4c76a76a88755cd
+### Reflection
+This was the easiest part for me as assembly isnt that bad. I made good progress while Ryan was sick and he helped me finish the part that I couldn't while he was gone. I didn't like how part of the gripper could go through itself on Onshape though.
