@@ -13,6 +13,10 @@ This repository will actually serve as an aid to help you get started with your 
  *  [Onshape Certification Part 2](#OnshapeCertificationPart2)
  * [Onshape Certification Part 3](#OnshapeCertificationPart3)
  *  * [Multi Part Cylinder](#[MultiPartCylinder)
+    *  *  * [Robot Gripper Design](#[RobotGripperDesign)
+
+  
+    
 
 
 
@@ -345,3 +349,19 @@ In this assignment we made a compresser type machine that looks somewhat like a 
 https://cvilleschools.onshape.com/documents/fa1ce5a92c7f41be972212e2/w/7742c39d70ca113353fe7592/e/d0b1e1f45cf057de39f2c453
 ### Reflection
 This assignment was the hardest one out of all the Onshape assignments. I struggled with making the top section and getting the dimensions correct. I also struggled with the pillars on the side ad getting the circles correct on the bottom of them.
+
+## Robot Gripper Design
+
+### Assignment Description
+
+This is the design for our project. We will have a claw pick up a can and put it in the trash.
+### Evidence
+Not completed yet, will be submitted when design is finalized.
+
+
+
+
+### Part Link 
+Not done yet
+### Reflection
+We are not completely done with this design yet. We are working on the arm and the functions of the gripper. We will finish the documentation when the design is complete.
