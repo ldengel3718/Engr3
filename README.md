@@ -12,6 +12,8 @@ This repository will actually serve as an aid to help you get started with your 
  *  [Onshape Certification Part 1](#OnshapeCertificationPart1)
  *  [Onshape Certification Part 2](#OnshapeCertificationPart2)
  * [Onshape Certification Part 3](#OnshapeCertificationPart3)
+ *  * [Multi Part Cylinder](#[MultiPartCylinder)
+
 
 
 
@@ -326,3 +328,20 @@ For this assignment we were asked to make a pair of grippers and assemble multip
 https://cvilleschools.onshape.com/documents/2521a0a09a9470f1e7529975/w/cdc683274651f22f8268cb0b/e/cd2c6288e4c76a76a88755cd
 ### Reflection
 This was the easiest part for me as assembly isnt that bad. I made good progress while Ryan was sick and he helped me finish the part that I couldn't while he was gone. I didn't like how part of the gripper could go through itself on Onshape though.
+
+## Multi Part Cylinder
+
+### Assignment Description
+
+In this assignment we made a compresser type machine that looks somewhat like a hydraulic press.
+### Evidence
+![Screenshot 2024-03-28 113154](https://github.com/ldengel3718/Engr3/assets/143533539/8a904931-15ff-4fa4-a7c0-fccce7363340)
+![Screenshot 2024-03-28 113140](https://github.com/ldengel3718/Engr3/assets/143533539/a905cb7f-c777-4544-80da-94644b0a287d)
+
+
+
+
+### Part Link 
+https://cvilleschools.onshape.com/documents/fa1ce5a92c7f41be972212e2/w/7742c39d70ca113353fe7592/e/d0b1e1f45cf057de39f2c453
+### Reflection
+This assignment was the hardest one out of all the Onshape assignments. I struggled with making the top section and getting the dimensions correct. I also struggled with the pillars on the side ad getting the circles correct on the bottom of them.
