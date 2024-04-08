@@ -376,85 +376,10 @@ We are not completely done with this design yet. We are working on the arm and t
 We had to make the motor move backwards and forwards when we pressed a button.
 
 ### Codce
-import asyncio
-import board
-import keypad
-import time
-import digitalio
-from adafruit_motor import stepper
 
 
-DELAY = 0.01   # Sets the delay time for in-between each step of the stepper motor.
-STEPS = 100    # Sets the number of steps. 100 is half a full rotation for the motor we're using. 
 
- Set up the digital pins used for the four wires of the stepper motor. 
-coils = (
-    digitalio.DigitalInOut(board.D9),   # A1
-    digitalio.DigitalInOut(board.D10),  # A2
-    digitalio.DigitalInOut(board.D11),  # B1
-    digitalio.DigitalInOut(board.D12),  # B2
-)
-
- Sets each of the digital pins as an output.
-for coil in coils:
-    coil.direction = digitalio.Direction.OUTPUT
-
-
-motor = stepper.StepperMotor(coils[0], coils[1], coils[2], coils[3], microsteps=None)
-
-motor.onestep()
-
-motor.onestep(direction=stepper.BACKWARD) # tells the motor to go backwards
-
-style=stepper.DOUBLE #how much it does it.
-
-for step in range(STEPS): # tells the motor how to work
-    motor.onestep(style=stepper.DOUBLE)
-    time.sleep(DELAY)
-
-
-for step in range(STEPS): 
-    motor.onestep(direction=stepper.BACKWARD, style=stepper.DOUBLE)
-    time.sleep(DELAY)
-
-async def catch_pin_transitions(pin):
-     Print a message when pin goes low and when it goes high.
-    with keypad.Keys((pin,), value_when_pressed=False) as keys:
-        while True:
-            event = keys.events.get()
-            if event:
-                if event.pressed:
-                    print("Limit Switch was pressed.")
-                    motor.onestep(direction=stepper.BACKWARD, style=stepper.DOUBLE)
-
-                elif event.released:
-                    print("Limit Switch was released.")
-                    motor.onestep(direction=stepper.FORWARD, style=stepper.DOUBLE)
-                await asyncio.sleep(0)
-
-async def run_motor():
-    while(True):
-        motor.onestep(style= stepper.DOUBLE)
-        time.sleep(DELAY) 
-        motor.onestep(direction=stepper.BACKWARD, style=stepper.DOUBLE)
-        time.sleep(DELAY)
-
-        await asyncio.sleep(0)
-
-async def main():
-    while(True):
-        interrupt_task = asyncio.create_task(catch_pin_transitions(board.D2))
-        asyncio.create_task(run_motor())
-        motor.onestep(style-stepper.DOUBLE)
-        time.sleep(DELAY)
-        motor.onestep(direction=stepper.BACKWARD, style=stepper.DOUBLE)
-        time.sleep(DELAY)
-        await asyncio.gather(interrupt_task, 
-                            catch_pin_transitions(board.D2))
-        
-
-asyncio.run(main())
-
+    
 
 
 ### Evidence
