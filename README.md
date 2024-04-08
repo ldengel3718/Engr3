@@ -387,7 +387,7 @@ from adafruit_motor import stepper
 DELAY = 0.01   # Sets the delay time for in-between each step of the stepper motor.
 STEPS = 100    # Sets the number of steps. 100 is half a full rotation for the motor we're using. 
 
-# Set up the digital pins used for the four wires of the stepper motor. 
+ Set up the digital pins used for the four wires of the stepper motor. 
 coils = (
     digitalio.DigitalInOut(board.D9),   # A1
     digitalio.DigitalInOut(board.D10),  # A2
@@ -395,7 +395,7 @@ coils = (
     digitalio.DigitalInOut(board.D12),  # B2
 )
 
-# Sets each of the digital pins as an output.
+ Sets each of the digital pins as an output.
 for coil in coils:
     coil.direction = digitalio.Direction.OUTPUT
 
@@ -418,7 +418,7 @@ for step in range(STEPS):
     time.sleep(DELAY)
 
 async def catch_pin_transitions(pin):
-    # Print a message when pin goes low and when it goes high.
+     Print a message when pin goes low and when it goes high.
     with keypad.Keys((pin,), value_when_pressed=False) as keys:
         while True:
             event = keys.events.get()
