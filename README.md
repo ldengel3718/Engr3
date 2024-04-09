@@ -13,8 +13,8 @@ This repository will actually serve as an aid to help you get started with your 
  *  [Onshape Certification Part 2](#OnshapeCertificationPart2)
  * [Onshape Certification Part 3](#OnshapeCertificationPart3)
  *  * [Multi Part Cylinder](#[MultiPartCylinder)
-    *  *  * [Robot Gripper Design](#[RobotGripperDesign)
-          *  * [Stepper Motor + Units](#[StepperMotor+Units)
+    * [Robot Gripper Design](#[RobotGripperDesign)
+  * [Stepper Motor + Units](#[StepperMotor+Units)
 
   
     
