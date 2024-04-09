@@ -376,6 +376,8 @@ We are not completely done with this design yet. We are working on the arm and t
 We had to make the motor move backwards and forwards when we pressed a button.
 
 ### Code
+
+```python
 import asyncio
 import board
 import keypad
@@ -456,7 +458,7 @@ async def main():
 asyncio.run(main())
  
  
- 
+ ```
 
     
 
