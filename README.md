@@ -473,3 +473,47 @@ asyncio.run(main())
 ### Reflection
 I did not really like this assignment at all and got help from Julian and Ryan. I struggled with the code, but the wiring was actually somewhat straight forward. I did struggle a little with connecting the wires to the correct pins as I mixed them up.
 
+
+## IR SENSOR
+### Assignment Description
+For this assignment we had to light up an LED using an IR sensor and once somebody or something got too close it would turn off.
+### Code
+
+```python
+import board
+import neopixel
+import digitalio
+# Allows for the code to work with these.
+
+ir_sensor = digitalio.DigitalInOut(board.D2) #tells you what the pin is for the ir sensor.
+ir_sensor.direction = digitalio.Direction.INPUT# gives it a input
+ir_sensor.pull = digitalio.Pull.UP
+
+led = neopixel.NeoPixel(board.NEOPIXEL, 1)#the code for the neopixle
+led.brightness = 0.3
+led[0] = (255,0,0)
+
+while True:
+    if ir_sensor.value == 1: # what runs the ir sensor
+        print("Sensor is LOW")
+        led[0] = (255, 0, 0)
+
+    if ir_sensor.value == 0:
+        print("Sensor is HIGH")
+        led[0] = (0, 255, 0)
+ 
+ 
+ ```
+
+    
+
+
+### Evidence
+![Screenshot 2024-04-09 111724](https://github.com/ldengel3718/Engr3/assets/143533539/2474a853-7025-457d-976e-513f4d7651dc)
+
+
+### Wiring
+![image](https://github.com/ldengel3718/Engr3/assets/143533539/42240d63-4318-456b-8569-05f917505174)
+
+### Reflection
+This assignment was more fun than stepper motor and also more simple. The wiring was nice and simple and the code wasn't too long. I did struggle a a little with the code and figuring out all the IR specific code sections. I got some good help from Julian and he helped me figure out my mistakes.
