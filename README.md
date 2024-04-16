@@ -519,3 +519,75 @@ while True:
 
 ### Reflection
 This assignment was more fun than stepper motor and also more simple. The wiring was nice and simple and the code wasn't too long. I did struggle a a little with the code and figuring out all the IR specific code sections. I got some good help from Julian and he helped me figure out my mistakes.
+
+## Rotary Encoder+LCD
+### Assignment Description
+You had to use a joy stick to change the words on the lcd screen and make it say go, cotion, and stop and make the neopixle change colors when those words are printed.
+In this assignment 
+
+### Code
+
+```python
+import rotaryio
+import board
+import neopixel
+import digitalio
+from lcd.lcd import LCD
+from lcd.i2c_pcf8574_interface import I2CPCF8574Interface
+
+enc = rotaryio.IncrementalEncoder(board.D4, board.D3, divisor = 2)
+
+lcd = LCD(I2CPCF8574Interface(board.I2C(), 0x27), num_rows = 2, num_cols = 16)
+
+led = neopixel.NeoPixel(board.NEOPIXEL, 1)
+led.brightness = 0.3
+led[0] = (255, 0, 0)
+
+button = digitalio.DigitalInOut(board.D2)
+button.direction = digitalio.Direction.INPUT
+button.pull = digitalio.Pull.UP
+button_state = None  
+
+menu_index = 0
+
+ 
+while True:
+    menu_index = enc.position
+    menu = ["stop", "caution", "go"]
+    last_index = None
+    menu[0] = "stop"
+    menu[1] = "caution"
+    menu[2] = "go"  
+    menu_index_lcd = menu_index % 3
+    lcd.set_cursor_pos(0,0)
+    lcd.print("Push for: ")
+    lcd.set_cursor_pos(1,0)
+    lcd.print ("           ")
+    lcd.set_cursor_pos(1,0)
+    lcd.print(menu[menu_index_lcd])
+    print(menu_index_lcd)
+    if not button.value and button_state is None:
+        button_state = "pressed"
+    if button.value and button_state == "pressed":
+        print("Button is pressed")
+        button_state = None
+    if menu_index_lcd == 0:
+        led[0] = (255, 0, 0)
+    if menu_index_lcd == 2:
+        led[0] = (0, 255, 0)
+    if menu_index_lcd == 1:
+        led[0] = (255, 255, 0)
+ ```
+
+    
+
+
+### Evidence
+![Screenshot 2024-04-09 111724](https://github.com/ldengel3718/Engr3/assets/143533539/2474a853-7025-457d-976e-513f4d7651dc)
+
+
+### Wiring
+![image](https://github.com/ldengel3718/Engr3/assets/143533539/42240d63-4318-456b-8569-05f917505174)
+
+### Reflection
+This assignment was more fun than stepper motor and also more simple. The wiring was nice and simple and the code wasn't too long. I did struggle a a little with the code and figuring out all the IR specific code sections. I got some good help from Julian and he helped me figure out my mistakes.
