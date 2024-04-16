@@ -16,6 +16,8 @@ This repository will actually serve as an aid to help you get started with your 
     * [Robot Gripper Design](#[RobotGripperDesign)
   * [Stepper Motor + Units](#[StepperMotor+Units)
   * * [IR sensor](#[IRSensor)
+    *  [Rotary Encoder+LCD](#[RotaryEncoder+LCD)
+
 
 
   
@@ -587,7 +589,6 @@ while True:
 
 
 ### Wiring
-![image](https://github.com/ldengel3718/Engr3/assets/143533539/42240d63-4318-456b-8569-05f917505174)
-
+[![image](tinyurl.com/wiringtinkercadldengel3718)]
 ### Reflection
-This assignment was more fun than stepper motor and also more simple. The wiring was nice and simple and the code wasn't too long. I did struggle a a little with the code and figuring out all the IR specific code sections. I got some good help from Julian and he helped me figure out my mistakes.
+This assignment was tricky but the wiring was nice and simple which was nice. I struggled with getting the neopixel to be the correct color based on what word was displayed on the LCD screen. I got help from Ryan and Will on this and they showed me how to write the correct code. This assignment was cool though as it was cool to use the neopixel and wording on the LCD screen.
