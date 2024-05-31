@@ -381,11 +381,11 @@ This is the design for our project. We will have a claw pick up a can and put it
 
 
 ### Reflection
-This assignment was a tough final assignment where we didn't lock in in the beggining so we had a lot of work to do at the end. We struggled with starting the onshape and working on the different arm pieces. We also needed to get the right amount of teeth on the gears. Ryan did the code and did very well and we did the onshape together. The code was a simple control of multiple servo motors using buttons.
+This assignment was a tough final assignment where we didn't lock in in the beginning so we had a lot of work to do at the end. We struggled with starting the Onshape and working on the different arm pieces. We also needed to get the right amount of teeth on the gears. Liam helped us figure out the calculations and a good design strategy for this issue. 
 ## Stepper Motor + Units
 
 ### Assignment Description
-We had to make the motor move backwards and forwards when we pressed a button.
+We had to make the motor move backward and forwards when we pressed a button.
 
 ### Code
 
