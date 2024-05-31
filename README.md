@@ -361,8 +361,11 @@ This assignment was the hardest one out of all the Onshape assignments. I strugg
 
 This is the design for our project. We will have a claw pick up a can and put it in the trash.
 ### Evidence
+### Left
 ![image](https://github.com/ldengel3718/Engr3/assets/143533539/c70098ed-8f7a-4b76-97fd-da5156cc5b5f)
+### Top
 ![image](https://github.com/ldengel3718/Engr3/assets/143533539/f8ad7ca1-7a1a-4b45-8a0f-7abf8e51dbce)
+### Back
 ![image](https://github.com/ldengel3718/Engr3/assets/143533539/d1bc48fd-7599-40ff-8b9a-3bcad74d61ee)
 
 
